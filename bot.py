@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 # Load token dari .env
 load_dotenv()
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 
 # Gambar banner (URL online)
 BANNER_URL = "https://i.postimg.cc/zfYykbf1/button-travel-lifestyle-hijau.png"  # Ganti dengan URL banner kamu
