@@ -41,7 +41,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             InlineKeyboardButton("📊 PREDIKSI TOGEL", url="https://t.ly/prediksi-lentera4d")
         ],
         [InlineKeyboardButton("📲 TELEGRAM LENTERA4D", url="https://t.me/admlentera4d")],
-        [InlineKeyboardButton("🔐 LOGIN LENTERA4D", url="https://lentera4d1103.top/?content=register&ref=bakayaro")]
+        [InlineKeyboardButton("🔐 LOGIN LENTERA4D", url="t.ly/alt-lentera4d/?content=register&ref=bakayaro")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await context.bot.send_message(chat_id=chat_id, text="👇 Klik salah satu menu:", reply_markup=reply_markup)
